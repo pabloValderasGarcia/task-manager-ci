@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Manager - 2022</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/ui.css">
+    </head>
+    <body>
+        <div id="createFolder">
+            <input id="nameCreateFolder" type="text" maxlength="10" placeholder="Enter name folder"/>
+            <input id="buttonCreateFolder" type="submit" value="Create folder"/>
+        </div>
+        <div id="createTask">
+            <input id="titleCreateTask" type="text" maxlength="17" placeholder="Enter title task"/>
+            <textarea id="contentCreateTask" type="text" maxlength="200" placeholder="Enter content task"></textarea>
+            <input id="buttonCreateTask" type="submit" value="Create task"/>
+        </div>
+        <div id="container"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script type="module" src="js/taskHandler.js"></script>
+    </body>
+</html>

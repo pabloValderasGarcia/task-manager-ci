@@ -1,0 +1,5 @@
+# taskManager
+
+```
+npm install
+```
